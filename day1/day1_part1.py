@@ -1,4 +1,4 @@
-with open("day1_part1_data.txt") as f:
+with open("day1_data.txt") as f:
     data = f.readlines() #turn lines into array
 data = [x.strip() for x in data] #take out whitespace
 freq = 0
