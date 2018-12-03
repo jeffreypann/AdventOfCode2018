@@ -12,5 +12,5 @@ for claim, x, y, dx, dy in claims:
 print(np.sum(fab>1))
 
 for claim, x, y, dx, dy in claims: # part 2
-    if np.all(fab[x:x+dx,y:y+dy] == 2):
+    if np.all(fab[x:x+dx,y:y+dy] == 1):
         print(claim)
